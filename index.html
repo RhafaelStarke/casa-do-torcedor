@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Rhafael Starke">
+    <title>Casa do Torcedor - Sua Paixão, Organizada</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@800&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="icon" href="assets/img/fav-icon.png">
+
+</head>
+<body>
+
+    <header>
+        <div class="logo-container">
+            <img src="assets/img/logo.png" alt="Logo Casa do Torcedor" class="logo-img">
+            <div class="logo-text">
+                <h1>Casa do Torcedor</h1>
+                <p>Sua Paixão, Organizada e Entregue.</p>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container">
+                <h2>O universo do seu time, <span>curado e entregue</span> no seu e-mail.</h2>
+                <p>
+                    Chega de procurar em vários lugares! A Casa do Torcedor é a sua newsletter inteligente que filtra o ruído e organiza tudo o que você precisa saber sobre o seu time do coração.
+                </p>
+                <form class="signup-form" action="https://formspree.io/f/movnlrpv" method="POST">
+                    <input type="email" name="email" placeholder="Digite seu melhor e-mail" required>
+
+                    <select name="time" required>
+                        <option value="" disabled selected>Selecione seu time do coração</option>
+                        <option value="atletico-mg">Atlético-MG</option>
+                        <option value="bahia">Bahia</option>
+                        <option value="botafogo">Botafogo</option>
+                        <option value="corinthians">Corinthians</option>
+                        <option value="cruzeiro">Cruzeiro</option>
+                        <option value="flamengo">Flamengo</option>
+                        <option value="fluminense">Fluminense</option>
+                        <option value="fortaleza">Fortaleza</option>
+                        <option value="gremio">Grêmio</option>
+                        <option value="internacional">Internacional</option>
+                        <option value="juventude">Juventude</option>
+                        <option value="palmeiras">Palmeiras</option>
+                        <option value="rb-bragantino">RB Bragantino</option>
+                        <option value="sao-paulo">São Paulo</option>
+                        <option value="vasco">Vasco</option>
+                        <option value="vitoria">Vitória</option>
+                    </select>
+
+                    <button type="button" id="submit-btn">QUERO ME INSCREVER!</button>
+                </form>
+                
+            </div>
+        </section>
+
+        <section class="features-section">
+            <div class="container">
+                <h3>Como Funciona?</h3>
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <h4>A Gazeta - Notícias</h4>
+                        <p>Filtramos as notícias mais importantes e entregamos um resumo inteligente, com links para as fontes oficiais. Sem fake news, direto ao ponto.</p>
+                    </div>
+                    <div class="feature-card">
+                        <h4>A Arquibancada - Debates</h4>
+                        <p>Trazemos um preview dos debates mais quentes da nossa comunidade e o convite para você entrar na discussão e sentir a energia da torcida.</p>
+                    </div>
+                    <div class="feature-card">
+                        <h4>A Bilheteria - Jogos</h4>
+                        <p>Apresentamos o calendário completo de jogos com os links oficiais para você garantir seu ingresso de forma rápida e segura.</p>
+                    </div>
+                    <div class="feature-card">
+                        <h4>A Loja do Clube</h4>
+                        <p>Quer vestir o manto sagrado? Fornecemos o atalho para a loja oficial do seu time. Simples, rápido e confiável.</p>
+                    </div>
+                    <div class="feature-card">
+                        <h4>TV do Clube - Vídeos</h4>
+                        <p>Reunimos os links de transmissões ao vivo, coletivas de imprensa e os melhores momentos dos jogos para você não perder nenhum lance.</p>
+                    </div>
+                    <div class="feature-card">
+                        <h4>Tudo em um só lugar</h4>
+                        <p>Nosso compromisso é poupar seu tempo e te manter mais conectado do que nunca. A paixão é sua, a organização é nossa.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Casa do Torcedor. Todos os direitos reservados.</p>
+            <p>Feito com paixão em Cuiabá, MT.</p>
+        </div>
+    </footer>
+
+    <div id="toast-notification">Mensagem do toast</div>
+
+    <script src="assets/js/script.js"></script>
+</body>
+</html>

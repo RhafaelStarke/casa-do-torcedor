@@ -1,6 +1,6 @@
 /* --- DEFINIÇÃO DA IDENTIDADE VISUAL (PALETA E FONTES) --- */
 :root {
-    --verde-gramado: #0B843B;
+    --verde-gramado: #0b843b;
     --verde-gramado-escuro: #086b2f;
     --amarelo-vibrante: #FFDC02;
     --azul-profundo: #002776;
@@ -35,6 +35,11 @@ body {
     max-width: 1100px;
     margin: 0 auto;
     padding: 2rem;
+}
+
+.container-child {
+    max-width: 350px;
+    margin: auto;
 }
 
 /* --- CABEÇALHO (LOGO) --- */
